@@ -1,0 +1,24 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+  background: white;
+  margin: 0 auto 0 auto;
+}
+
+.heading {
+  height: 20%;
+  padding: 5%;
+}
+.content{
+  min-height: 60%;
+  background: white;
+
+}
+.footer{
+  clear: both;
+  background: blue;
+  height: auto;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
