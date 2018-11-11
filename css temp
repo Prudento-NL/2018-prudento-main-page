@@ -1,24 +1,9 @@
-.wrapper {
-  height: 100%;
-  width: 100%;
-  background: white;
-  margin: 0 auto 0 auto;
-}
-
-.heading {
-  height: 10em;
-  padding: 2em;
-}
-.content{
-  min-height: 30em;
-  background: white;
-}
 .gallery {
-      border: 2px solid #ccc;
-  }
+    border: 1px solid #ccc;
+}
 
 .gallery:hover {
-    border: 2px solid #777;
+    border: 1px solid #777;
 }
 
 .gallery img {
@@ -58,13 +43,4 @@
     content: "";
     display: table;
     clear: both;
-}
-
-.footer{
-  clear: both;
-  background: blue;
-  height: auto;
-  color: white;
-  text-align: center;
-  padding: 1%;
 }
