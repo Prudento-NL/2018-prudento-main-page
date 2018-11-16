@@ -1,9 +1,13 @@
 .wrapper {
   height: 100%;
   width: 100%;
-  background: white;
+  background-color: white;
   margin: 0 auto 0 auto;
   font-family: Verdana, Geneva, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .heading {
@@ -24,16 +28,15 @@
   height: auto;
   color: darkblue;
   font-size: 0.775em;
-
 }
 
 .content {
-  min-height: 30em;
-  background: white;
+
 }
 
 .gallery {
   border: 2px solid #ccc;
+
 }
 
 .gallery:hover {
@@ -49,10 +52,6 @@
   padding: 15px;
   text-align: center;
   color: darkblue;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .responsive {
@@ -82,9 +81,8 @@
 
 .footer {
   clear: both;
-  background: blue;
   height: auto;
-  color: white;
+  color: darkblue;
   text-align: center;
   padding: 1%;
 }
