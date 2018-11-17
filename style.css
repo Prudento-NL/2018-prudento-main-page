@@ -17,26 +17,26 @@
 .heading_left {
   float: left;
   width: 60%;
-  padding: 10px;
+  padding-top: 20px;
+  padding-left: 30px;
   height: auto;
 }
 
 .heading_right {
   float: left;
   width: 40%;
-  padding: 10px;
+  padding: 5px;
   height: auto;
   color: darkblue;
   font-size: 0.775em;
 }
 
 .content {
-
+  min-height: 30em;
 }
 
 .gallery {
   border: 2px solid #ccc;
-
 }
 
 .gallery:hover {
@@ -84,5 +84,13 @@
   height: auto;
   color: darkblue;
   text-align: center;
-  padding: 1%;
+  font-size: 0.925em;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.footer img {
+  height: 20px;
+  width: auto;
+  vertical-align: sub;
 }
