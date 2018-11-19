@@ -11,24 +11,12 @@
 }
 
 .heading {
-  height: 10em;
-}
-
-.heading_left {
+  height: 8em;
   float: left;
-  width: 60%;
-  padding-top: 20px;
+  width: 100%;
+  padding: 10px;
   padding-left: 30px;
   height: auto;
-}
-
-.heading_right {
-  float: left;
-  width: 40%;
-  padding: 5px;
-  height: auto;
-  color: darkblue;
-  font-size: 0.775em;
 }
 
 .content {
@@ -83,14 +71,5 @@
   clear: both;
   height: auto;
   color: darkblue;
-  text-align: center;
-  font-size: 0.925em;
-  font-weight: bold;
-  padding: 10px;
-}
-
-.footer img {
-  height: 20px;
-  width: auto;
-  vertical-align: sub;
+  font-size: 0.775em;
 }
