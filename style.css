@@ -14,8 +14,8 @@
 
 .grid-heading {
   display: grid;
-  grid-template-columns: auto auto; /* FIXME: oude waarde 30% 45%;*/
-  grid-gap: auto; /* FIXME:  check deze ook >> was 25%*/
+  grid-template-columns: 50% 0%; /* FIXME: was 30% 45% */
+  grid-gap: 20%; /* FIXME:  check deze ook >> was 25%*/
 }
 
 /*
@@ -31,7 +31,6 @@
 
 .item2 {
   text-align: left;
-  padding-left: 23em;
   font-size: 0.775em;
 }
 
