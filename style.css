@@ -6,37 +6,23 @@
 }
 
 .heading {
-  height: auto;
-  float: left;
-  width: 100%;
-  padding: 10px;
-}
-
-.grid-heading {
-  display: grid;
-  grid-template-columns: 50% 0%; /* FIXME: was 30% 45% */
-  grid-gap: 20%; /* FIXME:  check deze ook >> was 25%*/
-}
-
-/*
-.grid-heading>div {
- padding: 20px 100px;
-}
-*/
-.item1 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  padding-left: 50px;
-}
-
-.item2 {
-  text-align: left;
+  min-height: 10em;
   font-size: 0.775em;
+  padding-top: 0.75em;
+  padding-bottom: 1em;
 }
 
-.item2 h3 {
-    margin-top: 0.4em;
-    margin-bottom: 0.4em;
+.heading h3 {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.heading img {
+  float: left;
+  height: 8em;
+  padding-left: 2em;
+  padding-right: 40em;
+  padding-top: 0.5em
 }
 
 .content {
@@ -84,6 +70,7 @@
   height: auto;
   font-size: 0.775em;
 }
+
 .footer h3 {
-    margin-top: 0.4em;
-    margin-bottom: 0.4em;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
